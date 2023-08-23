@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1691012658810,
+      "tag": "0000_bizarre_nightshade",
+      "breakpoints": true
+    }
+  ]
+}

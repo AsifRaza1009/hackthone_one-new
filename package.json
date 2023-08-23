@@ -1,0 +1,46 @@
+{
+  "name": "hackthone_one-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "drizzle-kit generate:pg --out drizzle --schema src/db/schema/*",
+    "migrate": "node -r esbuild-register src/db/migrate.ts"
+  },
+  "dependencies": {
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.14.2",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@vercel/postgres": "^0.4.1",
+    "autoprefixer": "10.4.14",
+    "drizzle-orm": "^0.27.2",
+    "esbuild-register": "^3.4.2",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "js-cookie": "^3.0.5",
+    "next": "13.4.10",
+    "next-sanity": "^5.1.2",
+    "postcss": "8.4.26",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-slick": "^0.29.0",
+    "sanity": "^3.14.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "5.2",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "@types/react-slick": "^0.23.10",
+    "drizzle-kit": "^0.19.12"
+  }
+}
